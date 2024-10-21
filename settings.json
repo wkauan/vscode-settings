@@ -1,0 +1,176 @@
+{
+  "symbols.hidesExplorerArrows": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, .eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    "class:\\s*?[\"'`]([^\"'`]*).*?,"
+  ],
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+
+  "explorer.fileNesting.enabled": true,
+  "window.restoreFullscreen": true,
+  "update.mode": "manual",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.editor.labelFormat": "short",
+  "editor.guides.bracketPairs": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "graphql"],
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "workbench.colorTheme": "Falcon - Vue Theme",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "catppuccin-macchiato",
+  "dart.flutterSdkPath": "C:\\flutter",
+  "glassit.alpha": 220,
+  "vscord.status.state.text.editing": "📝 Editing {file_name}{file_extension} in 📂 {directory_name}",
+  "vscord.status.details.text.editing": "🛠️ In {workspace} {problems}",
+  "vscord.status.problems.text": "- {problems_count} problems",
+  "vscord.status.state.text.viewing": "📝 Viewing {file_name}{file_extension} in 📂 {directory_name}",
+  "vscord.app.name": "Visual Studio Code",
+  "vscord.status.details.text.idle": "🕒 Idle for a while",
+  "vscord.status.details.text.notInFile": "🚫 No file open",
+  "python.createEnvironment.trigger": "off",
+  "dart.flutterCreatePlatforms": ["android", "ios"],
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "[xml]": {
+    "editor.defaultFormatter": "Oracle.oracle-java"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "Oracle.oracle-java"
+  },
+  "workbench.layoutControl.enabled": false,
+  "editor.minimap.enabled": false,
+
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "visible",
+
+  "workbench.colorCustomizations": {
+    "editor.background": "#21222f",
+    "sideBar.background": "#21222f",
+    "activityBar.background": "#21222f",
+    "actionBar.toggledBackground": "#21222f",
+    "activityBarTop.background": "#21222f",
+    "statusBar.background": "#21222f",
+    "titleBar.activeBackground": "#21222f",
+    "titleBar.inactiveBackground": "#21222f",
+    "panel.background": "#21222f",
+    "editorGroupHeader.tabsBackground": "#21222f",
+    "editorGroupHeader.tabsBorder": "#21222f",
+    "editorGroup.border": "#21222f",
+    "editorGroup.dropBackground": "#21222f",
+    "editorGroupHeader.noTabsBackground": "#21222f",
+    "editorGroupHeader.border": "#21222f",
+    "editorGroup.focusedEmptyBorder": "#21222f",
+    "editorGroup.emptyBackground": "#21222f",
+    "editorGroupHeader.tabsEmptyBackground": "#21222f",
+    "tab.activeBackground": "#555575",
+    "tab.inactiveBackground": "#21222f",
+    // "tab.inactiveForeground": "#555875",
+    "tab.border": "#21222f",
+    "tab.activeBorder": "#21222f",
+    "tab.unfocusedActiveBorder": "#21222f",
+    "tab.activeBorderTop": "#21222f",
+    "tab.unfocusedActiveBorderTop": "#21222f",
+    "tab.hoverBackground": "#21222f",
+    "tab.unfocusedHoverBackground": "#21222f",
+    "tab.hoverBorder": "#21222f",
+    "tab.unfocusedHoverBorder": "#21222f",
+    "tab.activeModifiedBorder": "#21222f",
+    "tab.inactiveModifiedBorder": "#21222f",
+    "tab.unfocusedActiveModifiedBorder": "#21222f",
+    "tab.unfocusedInactiveModifiedBorder": "#21222f",
+    "dropdown.background": "#21222f",
+    "input.background": "#2e3045",
+    "input.border": "#3e425e",
+    "inputOption.activeBackground": "#21222f",
+    "inputOption.activeBorder": "#21222f",
+    "inputOption.activeForeground": "#e5e9ff",
+    // "button.background": "#2344ff",
+    "button.foreground": "#ffffff",
+    "terminal.background": "#21222f",
+    "editorLineNumber.activeForeground": "#fdad51",
+    "menu.background": "#21222f",
+    "editorPane.background": "#21222f",
+    "editor.selectionBackground": "#383c52",
+    "panel.border": "#383c52",
+    "sideBar.border": "#383c52",
+    "scrollbar.shadow": "#21222f",
+    "editorStickyScroll.border": "#2d3042",
+    "editor.lineHighlightBackground": "#2d3042",
+    "editorGutter.background": "#21222f",
+    "editorGutter.modifiedBackground": "#21222f",
+    "editorGutter.addedBackground": "#21222f",
+    "editorGutter.deletedBackground": "#21222f",
+    "statusBarItem.remoteBackground": "#9190ff",
+    "focusBorder": "#21222f",
+    "scrollbarSlider.background": "#383c52",
+    "scrollbarSlider.activeBackground": "#535a7c",
+    "scrollbarSlider.hoverBackground": "#474c69"
+  },
+
+  "apc.header": {
+    "compact": 22,
+    "fontSize": 12,
+    "fontWeight": "bold",
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.sidebar.titlebar": {
+    "fontSize": 12,
+    "fontWeight": "bold"
+  },
+  "apc.stylesheet": {
+    ".tabs-container .tab.active": {
+      "border-radius": "7px !important"
+    },
+    ".scrollbar": {
+      "background": "#21222f !important"
+    },
+    ".pane-body": "padding: 8px",
+    ".pane-header": "padding: 0 8px"
+  },
+
+  "css.completion.triggerPropertyValueCompletion": false,
+  // "github.copilot.chat.terminalChatLocation": "terminal",
+  "workbench.editor.editorActionsLocation": "hidden",
+  // "window.density.editorTabHeight": "compact",
+  "workbench.activityBar.location": "bottom",
+  "apc.menubar.compact": true,
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false
+}
