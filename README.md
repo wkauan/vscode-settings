@@ -33,3 +33,5 @@ As configurações incluem temas e ícones personalizados. Caso você não tenha
 ## 🤝 Contribuições
 
 Sinta-se à vontade para fazer sugestões ou contribuições!
+
+![Como fica no vscode](./Screenshot.png)
