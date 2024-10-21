@@ -15,7 +15,7 @@ As configurações incluem temas e ícones personalizados. Caso você não tenha
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/wkauan/vscode-settings.git
 
    ```
 
