@@ -43,8 +43,8 @@
   },
   "eslint.validate": ["javascript", "javascriptreact", "graphql"],
   "[prisma]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "Prisma.prisma"
+    "editor.formatOnSave": true
+    // "editor.defaultFormatter": "Prisma.prisma"
   },
   "workbench.colorTheme": "Falcon - Vue Theme",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -90,7 +90,7 @@
     "editorGroupHeader.tabsBackground": "#21222f",
     "editorGroupHeader.tabsBorder": "#21222f",
     "editorGroup.border": "#21222f",
-    "editorGroup.dropBackground": "#21222f",
+    // "editorGroup.dropBackground": "#21222f",
     "editorGroupHeader.noTabsBackground": "#21222f",
     "editorGroupHeader.border": "#21222f",
     "editorGroup.focusedEmptyBorder": "#21222f",
@@ -104,7 +104,7 @@
     "tab.unfocusedActiveBorder": "#21222f",
     "tab.activeBorderTop": "#21222f",
     "tab.unfocusedActiveBorderTop": "#21222f",
-    "tab.hoverBackground": "#21222f",
+    // "tab.hoverBackground": "#21222f",
     "tab.unfocusedHoverBackground": "#21222f",
     "tab.hoverBorder": "#21222f",
     "tab.unfocusedHoverBorder": "#21222f",
@@ -170,7 +170,6 @@
   "workbench.editor.editorActionsLocation": "hidden",
   // "window.density.editorTabHeight": "compact",
   "workbench.activityBar.location": "bottom",
-  "apc.menubar.compact": true,
-  "window.menuBarVisibility": "compact",
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "window.density.editorTabHeight": "compact"
 }
